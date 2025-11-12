@@ -1,0 +1,75 @@
+{
+  "cv": [
+    {
+      ".metric": "accuracy",
+      ".estimator": "binary",
+      "mean": 0.7656,
+      "n": 5,
+      "std_err": 0.0173,
+      ".config": "pre0_mod0_post0"
+    },
+    {
+      ".metric": "f_meas",
+      ".estimator": "binary",
+      "mean": 0.8296,
+      "n": 5,
+      "std_err": 0.0131,
+      ".config": "pre0_mod0_post0"
+    },
+    {
+      ".metric": "pr_auc",
+      ".estimator": "binary",
+      "mean": 0.9172,
+      "n": 5,
+      "std_err": 0.013,
+      ".config": "pre0_mod0_post0"
+    },
+    {
+      ".metric": "precision",
+      ".estimator": "binary",
+      "mean": 0.7916,
+      "n": 5,
+      "std_err": 0.0243,
+      ".config": "pre0_mod0_post0"
+    },
+    {
+      ".metric": "recall",
+      ".estimator": "binary",
+      "mean": 0.8775,
+      "n": 5,
+      "std_err": 0.031,
+      ".config": "pre0_mod0_post0"
+    },
+    {
+      ".metric": "roc_auc",
+      ".estimator": "binary",
+      "mean": 0.8515,
+      "n": 5,
+      "std_err": 0.0191,
+      ".config": "pre0_mod0_post0"
+    }
+  ],
+  "test_threshold_default": [
+    {
+      "threshold": 0.5,
+      "roc_auc": 0.8085,
+      "pr_auc": 0.6677,
+      "accuracy": 0.7662,
+      "precision": 0.7045,
+      "recall": 0.5741,
+      "f1": 0.6327
+    }
+  ],
+  "test_threshold_best": [
+    {
+      "threshold": 0.16,
+      "roc_auc": 0.8085,
+      "pr_auc": 0.6677,
+      "accuracy": 0.6558,
+      "precision": 0.5052,
+      "recall": 0.9074,
+      "f1": 0.649
+    }
+  ],
+  "threshold_best": 0.16
+}
